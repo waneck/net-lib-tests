@@ -1,14 +1,18 @@
 import unityengine.*;
 import unityeditor.*;
-class Main {
+class Main
+{
 
-	public function new() {
-		//initialize variables
-		var x = new GameObject();
+	static function main()
+  {
 	}
 
-	static function main() {
-		trace("hello world");
-	}
+}
 
+class MyComponent extends MonoBehaviour
+{
+  function Update()
+  {
+    var body:Rigidbody = GetComponent();
+  }
 }
