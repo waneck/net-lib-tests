@@ -3,3 +3,4 @@
 -cs bin/cs
 -net-lib lib/UnityEditor.dll
 -net-lib lib/UnityEngine.dll
+-net-lib lib/Mono.Cairo.dll
